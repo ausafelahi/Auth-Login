@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    background-color: rgb(212,229,247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+form{
+    background-color: white;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    width: 360px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.head{
+    margin-inline: auto;
+    text-align: center;
+}
+.head small{
+    color: gray;
+    font-weight: 500;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+.btns button{
+    padding: .8rem;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(218,218,218);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.btns button:hover{
+    opacity: .8;
+}
+.btns button img{
+    width: 20px;
+}
+.divider{
+    position: relative;
+}
+.divider small{
+    background-color: white;
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.block input{
+    padding: .8rem;
+    border-radius: 10px;
+    border: 1px solid rgb(218, 218, 218);
+}
+.block input::placeholder{
+    font-weight: 600;
+}
+.block label{
+    font-size: .8rem;
+    font-weight: 500;
+    color: rgb(85, 84, 84);
+}
+.submit-btn{
+    padding: .8rem;
+    border: none;
+    color: white;
+    background-color: rgb(66, 24, 255);
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    opacity: .8;
+}
+
+.hidden{
+    display: none;
+}
